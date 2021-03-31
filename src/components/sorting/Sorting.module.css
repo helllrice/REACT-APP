@@ -1,0 +1,44 @@
+.sorting {
+    margin-left: 360px;
+    display: flex;
+    width: 950px;
+    height: 70px;
+    box-shadow: 1px 3px 10px 2px rgba(34, 60, 80, 0.1);
+    background-color: fff;
+    justify-content: space-between;
+}
+
+.inputCascader {
+    margin: 20px;
+}
+
+.ant-input {
+    color: #000;
+}
+
+.sortingCheckbox {
+    margin: 26px;
+}
+
+.sortingCheckbox input {
+}
+
+.sortingCheckbox label {
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+:global(.ant-cascader-menu-item) {
+    
+}
+
+.sortingButton {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 20px;
+    background-color: #fff;
+    width: 60px;
+    height: 30px;
+    border: 1px solid #E0E5E6;
+    cursor: pointer;
+}

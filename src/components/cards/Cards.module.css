@@ -1,0 +1,85 @@
+.cards {
+    
+    width: 1000px;
+    height: 410px;
+   display: flex;
+   justify-content: flex-start;
+   flex-wrap: wrap; 
+}
+
+.cardsItem {
+    margin: 20px;
+    width: 290px;
+    height: 210px;
+    box-shadow: 1px 3px 10px 2px rgba(34, 60, 80, 0.1);
+}
+
+.cardsTitle {
+    width: 290px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #EDE8F5
+    ;
+    height: 40px;
+}
+
+.cardsTitle h2 {
+    padding: 4px 20px 7px 20px;
+}
+
+.cardsTitle img {
+    margin: 13px;
+    height: 16px;
+}
+
+.cardMove {
+    display: none;
+}
+
+.cardsImg {
+    position: relative;
+}
+
+.cardText {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 4px 20px 7px 20px;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.dropdownContent a {
+    display: flex;
+    color: black;
+    padding: 4px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdownContent img {
+    width: 10px;
+    height: 10px;
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    right: 10px;
+    background-color: #f9f9f9;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.cardsImg:hover .dropdownContent {
+    display: block;
+}
+
+.hide {
+    display: block;
+}
+
+.hovered {
+    background-color: #d1d8e2;
+}
+
+

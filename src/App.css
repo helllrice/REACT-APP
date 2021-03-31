@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 1400px;
+  padding-top: 100px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.Items {
+  display: flex;
+  justify-content: center;
+
+}
